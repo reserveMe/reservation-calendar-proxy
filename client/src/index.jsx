@@ -14,9 +14,7 @@ export default class App extends React.Component {
     const id = document.URL.split('/')[4];
     axios.get(`/buildPage/restaurants/${id}/`)
       .then(response => {
-        console.log(response.data);
-        console.log(ReactHtmlParser(response.data)[1].props.children[1]);
-        ReactDOM.render(<div id='calendar'>{ReactHtmlParser(response.data)[1].props.children[1]}</div>, document.getElementById('app'));
+        console.log(response);
       })
       .catch(err => {
         throw err;
