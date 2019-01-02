@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
+import $ from 'jquery';
 const axios = require('axios');
 
 export default class App extends React.Component {
@@ -14,7 +15,10 @@ export default class App extends React.Component {
     const id = document.URL.split('/')[4];
     axios.get(`/buildPage/restaurants/${id}/`)
       .then(response => {
-        console.log(response);
+        const reservationScript = document.createElement('script');
+        reservationScript.type = 'text/javascript';
+        reservationScript.text = response.data;
+        $('head').append(reservationScript);
       })
       .catch(err => {
         throw err;
