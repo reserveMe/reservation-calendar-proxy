@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
 import $ from 'jquery';
+const axios = require('axios');
 
 export default class App extends React.Component {
   constructor(props) {
@@ -12,7 +14,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        Hello World!
+        Hello World 2
       </div>
     );
   }
