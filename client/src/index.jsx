@@ -11,15 +11,15 @@ export default class App extends React.Component {
     };
   }
 
-  render() {
-    return (
-      <div>
-        Hello World 2
-      </div>
-    );
-  }
+  // render() {
+  //   return (
+  //     <div>
+  //       Hello World 2
+  //     </div>
+  //   );
+  // }
 }
 
-if (typeof window !== 'undefined') {
-  ReactDOM.render(<App />, document.getElementById('app'));
-}
+// if (typeof window !== 'undefined') {
+//   ReactDOM.render(<App />, document.getElementById('app'));
+// }
