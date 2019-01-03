@@ -6,13 +6,21 @@
   margin: 0;
   max-width: inherit;
   width: inherit;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  flex-direction: row-reverse;
+  max-width: 992px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #reservationApp {
-  padding: 2rem 1rem 4rem;
+  margin: 2rem calc(-1*1rem);
 }
 
-#overview {
+#details {
   margin: 0 1rem;
 }
 
@@ -26,4 +34,33 @@
 
 #Reviews {
   padding: 0 0 4rem;
+}
+
+#overview {
+  padding: 2rem 1rem 4rem;
+}
+
+#title {
+  margin: 0 0 2rem;
+}
+
+#description {
+  margin: 0;
+  padding: 0;
+}
+
+#titleText {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #d8d9db;
+  margin: 0 0 1rem;
+}
+
+#titleh1 {
+  color: #2d333f;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
 }
