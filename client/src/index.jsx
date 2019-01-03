@@ -11,24 +11,10 @@ export default class App extends React.Component {
     };
   }
 
-  componentDidMount() {
-    const id = document.URL.split('/')[4];
-    axios.get(`/buildPage/restaurants/${id}/`)
-      .then(response => {
-        const reservationScript = document.createElement('script');
-        reservationScript.type = 'text/javascript';
-        reservationScript.text = response.data;
-        $('head').append(reservationScript);
-      })
-      .catch(err => {
-        throw err;
-      });
-  }
-
   render() {
     return (
       <div>
-        Hello World!
+        Hello World 2
       </div>
     );
   }
