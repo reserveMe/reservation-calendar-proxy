@@ -14,8 +14,8 @@
 
 ## Usage
 
-> npm run react-dev OR npm run react
-> npm run server-dev
+- 'npm run react-dev' or 'npm run react' for a production bundle.
+- 'npm run server-dev
 
 ## Requirements
 
