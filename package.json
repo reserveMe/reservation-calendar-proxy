@@ -8,6 +8,7 @@
   },
   "scripts": {
     "react-dev": "webpack -d --watch",
+    "react": "webpack --config webpack.prod.js",
     "server-dev": "nodemon server/index.js"
   },
   "dependencies": {
@@ -16,7 +17,8 @@
     "http-proxy-middleware": "^0.19.1",
     "jquery": "^3.3.1",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "webpack-merge": "^4.2.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.0",
