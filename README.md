@@ -1,13 +1,10 @@
 # Project Name
 
-> Project description
+> Proxy server built to render all components of Reserve.me app on one page.
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/reserveMe/reservation-calendar-service
 
 ## Table of Contents
 
@@ -17,7 +14,8 @@
 
 ## Usage
 
-> Some usage instructions
+> npm run react-dev || npm run react
+> npm run server-dev
 
 ## Requirements
 
@@ -32,8 +30,5 @@ An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 
 From within the root directory:
 
-```sh
 npm install -g webpack
 npm install
-```
-
