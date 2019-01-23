@@ -14,7 +14,7 @@
 
 ## Usage
 
-> npm run react-dev || npm run react
+> npm run react-dev OR npm run react
 > npm run server-dev
 
 ## Requirements
