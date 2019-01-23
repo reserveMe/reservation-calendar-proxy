@@ -1,4 +1,4 @@
-# Project Name
+# Reserve.me Proxy Server
 
 > Proxy server built to render all components of Reserve.me app on one page.
 
