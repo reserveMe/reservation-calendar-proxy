@@ -1,4 +1,4 @@
-# Project Name
+# Reserve.me Proxy Server
 
 > Proxy server built to render all components of Reserve.me app on one page.
 
@@ -14,8 +14,8 @@
 
 ## Usage
 
-> npm run react-dev || npm run react
-> npm run server-dev
+- 'npm run react-dev' or 'npm run react' for a production bundle.
+- 'npm run server-dev
 
 ## Requirements
 
